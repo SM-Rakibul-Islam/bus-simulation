@@ -1,0 +1,33 @@
+[RESOURCES]
+Distributor
+Ticket provider
+Take of from Noakhali
+Take of from Cumilla
+Checker
+[VARIABLES]
+Ticket vendor.NumberIn
+Noakhali.VATime
+Distibuting snacks.NumberOut
+Ticket vendor.WaitTime
+Ticket checking.NumberOut
+Ticket vendor.NumberOut
+Ticket checking.NumberIn
+Where to go?.NumberOut True
+Distibuting snacks.NumberIn
+Cumilla.NumberIn
+Noakhali.NumberOut
+Ticket checking.WaitTime
+Dispose 1.NumberOut
+Noakhali.NumberIn
+Distibuting snacks.WaitTime
+Cumilla.WaitTime
+Buy ticket or not.NumberOut True
+Cumilla.NumberOut
+Noakhali.WaitTime
+Distibuting snacks.VATime
+Passanger arrival.NumberOut
+Cumilla.VATime
+Ticket vendor.VATime
+Buy ticket or not.NumberOut False
+Where to go?.NumberOut False
+Ticket checking.VATime

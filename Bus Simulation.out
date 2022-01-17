@@ -1,0 +1,113 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Bus Simulation                                              Run execution date : 4/12/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/12/2021
+
+Replication ended at time      : 6.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Noakhali.VATimePerEntity                    .16667     (Insuf)    .16667     .16667         15    
+Distibuting snacks.WaitTimePerEntity        .01698     (Insuf)    .00000     .13860         49    
+Cumilla.VATimePerEntity                     .08333     (Insuf)    .08333     .08333         30    
+Ticket checking.TotalTimePerEntity          .03764     (Insuf)    .01861     .06698         49    
+Noakhali.WaitTimePerEntity                  .02287     (Insuf)    .00000     .12333         15    
+Cumilla.TotalTimePerEntity                  .10426     (Insuf)    .08333     .20029         30    
+Cumilla.WaitTimePerEntity                   .02093     (Insuf)    .00000     .11696         30    
+Ticket checking.VATimePerEntity             .03291     (Insuf)    .01678     .04991         49    
+Ticket checking.WaitTimePerEntity           .00473     (Insuf)    .00000     .04210         49    
+Distibuting snacks.VATimePerEntity          .04586     (Insuf)    .00857     .08316         49    
+Noakhali.TotalTimePerEntity                 .18954     (Insuf)    .16667     .28999         15    
+Ticket vendor.TotalTimePerEntity            .02742     (Insuf)    .00193     .07357         49    
+Ticket vendor.VATimePerEntity               .02307     (Insuf)    4.3769E-04 .04870         49    
+Ticket vendor.WaitTimePerEntity             .00435     (Insuf)    .00000     .04304         49    
+Distibuting snacks.TotalTimePerEntity       .06284     (Insuf)    .00857     .21706         49    
+Passanger.VATime                            .21268     (Insuf)    .13179     .30226         45    
+Passanger.NVATime                           .00000     (Insuf)    .00000     .00000         45    
+Passanger.WaitTime                          .04009     (Insuf)    .00000     .19843         45    
+Passanger.TranTime                          .00000     (Insuf)    .00000     .00000         45    
+Passanger.OtherTime                         .00000     (Insuf)    .00000     .00000         45    
+Passanger.TotalTime                         .25278     (Insuf)    .13179     .45646         45    
+Distibuting snacks.Queue.WaitingTime        .01698     (Insuf)    .00000     .13860         49    
+Cumilla.Queue.WaitingTime                   .02025     (Insuf)    .00000     .11696         31    
+Noakhali.Queue.WaitingTime                  .02305     (Insuf)    .00000     .12333         16    
+Ticket checking.Queue.WaitingTime           .00473     (Insuf)    .00000     .04210         49    
+Ticket vendor.Queue.WaitingTime             .00426     (Insuf)    .00000     .04304         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passanger.WIP                               2.1117     (Insuf)    .00000     5.0000     5.0000    
+Distributor.NumberBusy                      .37454     (Insuf)    .00000     1.0000     .00000    
+Distributor.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Distributor.Utilization                     .37454     (Insuf)    .00000     1.0000     .00000    
+Ticket provider.NumberBusy                  .18902     (Insuf)    .00000     1.0000     1.0000    
+Ticket provider.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Ticket provider.Utilization                 .18902     (Insuf)    .00000     1.0000     1.0000    
+Take of from Noakhali.NumberBusy            .44404     (Insuf)    .00000     1.0000     1.0000    
+Take of from Noakhali.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Take of from Noakhali.Utilization           .44404     (Insuf)    .00000     1.0000     1.0000    
+Take of from Cumilla.NumberBusy             .42632     (Insuf)    .00000     1.0000     1.0000    
+Take of from Cumilla.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Take of from Cumilla.Utilization            .42632     (Insuf)    .00000     1.0000     1.0000    
+Checker.NumberBusy                          .26874     (Insuf)    .00000     1.0000     .00000    
+Checker.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Checker.Utilization                         .26874     (Insuf)    .00000     1.0000     .00000    
+Distibuting snacks.Queue.NumberInQueue      .13867     (Insuf)    .00000     3.0000     .00000    
+Cumilla.Queue.NumberInQueue                 .11204     (Insuf)    .00000     2.0000     1.0000    
+Noakhali.Queue.NumberInQueue                .08419     (Insuf)    .00000     1.0000     1.0000    
+Ticket checking.Queue.NumberInQueue         .03864     (Insuf)    .00000     2.0000     .00000    
+Ticket vendor.Queue.NumberInQueue           .03551     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Ticket vendor Number In                     50.000    
+Noakhali Accum VA Time                      2.5000    
+Distibuting snacks Number Out               49.000    
+Ticket vendor Accum Wait Time               .21307    
+Ticket checking Number Out                  49.000    
+Ticket vendor Number Out                    49.000    
+Ticket checking Number In                   49.000    
+Distibuting snacks Number In                49.000    
+Cumilla Number In                           32.000    
+Noakhali Number Out                         15.000    
+Ticket checking Accum Wait Time             .23184    
+Noakhali Number In                          17.000    
+Distibuting snacks Accum Wait Time          .83202    
+Cumilla Accum Wait Time                     .62776    
+Cumilla Number Out                          30.000    
+Noakhali Accum Wait Time                    .34310    
+Distibuting snacks Accum VA Time            2.2472    
+Cumilla Accum VA Time                       2.5000    
+Ticket vendor Accum VA Time                 1.1305    
+Ticket checking Accum VA Time               1.6124    
+Passanger.NumberIn                          50.000    
+Passanger.NumberOut                         45.000    
+Distributor.NumberSeized                    49.000    
+Distributor.ScheduledUtilization            .37454    
+Ticket provider.NumberSeized                50.000    
+Ticket provider.ScheduledUtilization        .18902    
+Take of from Noakhali.NumberSeized          16.000    
+Take of from Noakhali.ScheduledUtilization  .44404    
+Take of from Cumilla.NumberSeized           31.000    
+Take of from Cumilla.ScheduledUtilization   .42632    
+Checker.NumberSeized                        49.000    
+Checker.ScheduledUtilization                .26874    
+System.NumberOut                            45.000    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
